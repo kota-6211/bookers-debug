@@ -1,0 +1,2 @@
+$("textarea").val('')
+$('.comments_index').html("<%= escape_javascript(render 'book_comments/comment', book: @book) %>")
